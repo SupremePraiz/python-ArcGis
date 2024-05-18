@@ -1,12 +1,16 @@
 from time import ctime
 import arcpy
 
-print(f"the start time and date is {ctime()}")
-
+arcpy.env.overwriteOutput = True
+arcpy.env.workspace = r"C:\Users\Supremepraiz\Desktop\LPC\Data\sample.gdb"
 
 fc = r"C:\Users\Supremepraiz\Desktop\LPC\Data\ne_10m_admin_0_countries.shp"
 
-count = arcpy.GetCount_management(fc)
-print(count)
+num_feature = arcpy.GetCount_management(fc)
+print("this shape file {0} has {1} in it".format(fc,num_feature))
 
-print(f"the current time and date is {ctime()}")
+arcpy.CreateFileGDB_management(r"C:\Users\Supremepraiz\Desktop\LPC\Data","sample")
+arcpy.Select_analysis(fc, "Canada", "NAME = 'Canada'")
+
+print("...........................................................................................")
+print("Script Completed")
