@@ -1,6 +1,10 @@
 from time import ctime
 import arcpy
 
+'''Overwriting arcpy.addmessage to ur own print function'''
+def print_message(msg):
+    arcpy.AddMessage(msg)
+
 arcpy.env.overwriteOutput = True
 arcpy.env.workspace = r"C:\Users\Supremepraiz\Desktop\LPC\Data\sample.gdb"
 
@@ -12,13 +16,13 @@ if fc == "":
 
 
 num_feature = arcpy.GetCount_management(fc)
-arcpy.AddMessage("this shape file {0} has {1} in it".format(fc,num_feature))
+print_message("this shape file {0} has {1} in it".format(fc,num_feature))
 
 # arcpy.CreateFileGDB_management(r"C:\Users\Supremepraiz\Desktop\LPC\Data","sample")
 # arcpy.Select_analysis(fc, "Canada", "NAME = 'Canada'")
 
 
 
-print("...........................................................................................")
-print("Script Completed")
-print("...........................................................................................")
+print_message("...........................................................................................")
+print_message("Script Completed")
+print_message("...........................................................................................")
