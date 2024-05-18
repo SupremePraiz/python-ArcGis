@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ae8401f-2816-4c97-be1f-9e7b47c71f70" name="Changes" comment="added arcpy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1.py" afterDir="false" />
-    </list>
+    <list default="true" id="2ae8401f-2816-4c97-be1f-9e7b47c71f70" name="Changes" comment="added more arcpy modules" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715983176652</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added arcpy">
+      <option name="closed" value="true" />
+      <created>1716038585196</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716038585196</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added more arcpy modules">
+      <option name="closed" value="true" />
+      <created>1716039015967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716039015967</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,7 +152,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson1" />
     <MESSAGE value="added arcpy" />
-    <option name="LAST_COMMIT_MESSAGE" value="added arcpy" />
+    <MESSAGE value="added more arcpy modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more arcpy modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
